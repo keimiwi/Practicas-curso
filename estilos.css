@@ -1,0 +1,78 @@
+/*Fondo general-----------------------------------*/
+body {
+    background-color: white,
+    width: auto;
+}
+
+/*Empiezan las cajitas-------------------------------*/
+/*Fondo cajas----------------------------------------*/
+.content {
+    background-color: hsl(197, 22%, 55%);
+    padding: 5px;
+    max-width: 800px;
+    width: auto;
+    display: block;
+}
+
+/*Primera caja---------------------------------------*/
+.top {
+    height:100px;
+    margin: 15px;  /* Margen alrededor */
+    background-color: hsl(133, 27%, 83%);
+}
+
+/*Segunda caja---------------------------------------*/
+.body1 {
+    background-color: hsl(133, 27%, 83%);
+    height: 250px;
+    margin: 15px;
+}
+
+/*Dos cajas juntas: 3 & 4----------------------------*/
+.content-box1 {
+    width: auto;
+    height: 250px;
+    margin: 15px;
+}
+
+.content1 {
+    background-color: hsl(133, 27%, 83%);
+    float: left;
+    height: 250px;
+    width: 49%;
+}
+
+.content2 {
+    background-color: hsl(133, 27%, 83%);
+    float: right;
+    height: 250px;
+    width: 49%;
+}
+
+/*Quinta caja---------------------------------------*/
+.body2 {
+    background-color: hsl(133, 27%, 83%);
+    height: 250px;
+    margin: 15px;
+}
+
+/*Últimas dos cajas: 6 & 7--------------------------*/
+.content-box2 {
+    width: auto;
+    height: 250px;
+    margin: 15px;
+}
+
+.content3 {
+    background-color: hsl(133, 27%, 83%);
+    float: left;
+    height:250px;
+    width: 49%;
+}
+
+.content4 {
+    background-color: hsl(133, 27%, 83%);
+    float: right; 
+    height:250px;
+    width: 49%;
+}
